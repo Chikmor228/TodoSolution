@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{B0CF28A3-63B9-4A9A-880F-8EAC6630F40E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{2B1B76FD-42F2-4DBE-91D3-E0EF8C358B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{88A15F9F-D65F-415B-A059-030C589CCBB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88A15F9F-D65F-415B-A059-030C589CCBB8} = {2B1B76FD-42F2-4DBE-91D3-E0EF8C358B2B}
 	EndGlobalSection
 EndGlobal
