@@ -34,5 +34,5 @@ namespace Todo.Core.Tests
             Assert.Single(found);
             Assert.Equal("Buy milk", found[0].Title);
         }
-    }``
+    }
 }
